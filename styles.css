@@ -1,0 +1,10 @@
+ 
+ * {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --GreenTheme: #018a7b;
+    --GreenThemeText: #00554c;;
+  }
+    

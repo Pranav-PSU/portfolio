@@ -1,0 +1,110 @@
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+main {
+  padding-top: 5%; /* add padding to body to avoid overlapping content */
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+ }
+
+ .profileImage{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* border-top-left-radius: 20%; */
+    border: 5px solid white;
+ }
+
+ .cardBody
+ {
+    margin-bottom: 0;
+ }
+
+.card:hover {
+    cursor: pointer;
+}
+
+.navbar, .navbar-brand{
+    font-size: 25px;
+    padding: 1vh;
+  }
+  .bgimg {
+    background-image: url('/images/back.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .bgimg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7; /* Adjust opacity value as desired */
+  }
+
+  .aboutCard{
+    height: 100%;
+    /* border-bottom-right-radius: 20%; */
+    background: #ffffffcc;
+  }
+   
+  .fab{
+    padding: 4%;
+  }
+
+.sectionHeading{
+    font-size: 3vh;
+    background: #018a7b;
+    padding: 10px 20px;
+    color: white;
+}
+
+.formButton
+{
+    width: 100%;
+    
+}
+ 
+
+label{
+  color: var(--GreenThemeText);
+}
+
+.nav-link.active {
+  color: var(--GreenThemeText) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--GreenThemeText) ;
+  background-color: #cbedea;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+.accordion-button:focus {
+  border-color: var(--GreenThemeText) ;
+  box-shadow: none ;
+}
+
+#formButtonSubmit{
+    background-color: var(--GreenTheme);
+}
+
+#formButtonSubmit:hover {
+  color: white;
+  background-color: var(--GreenTheme);;
+}

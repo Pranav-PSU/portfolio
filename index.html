@@ -52,23 +52,25 @@
         <div class="bgimg">
             <section id="about" class="aboutContainer container py-5">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12">  
-                        <div class="text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">  
+                        <div class="card aboutCard">
+                            <div class="card-body">
                             <img class="profileImage" src="../images/PranavImage.png" alt="Picture of Pranav Dharamthok">
                         </div>
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12">  
+                    <div class="col-lg-6 col-md-6 col-sm-12">  
                         <div class="card aboutCard">
                             <div class="card-body">
                                 <h5 class="card-title">About</h5>
                                 <p class="card-text">Master’s student at Portland State University, passionate about software engineering with 4.5+ years of experience specializing in full-stack development, mobile application development, API design and development, data structures, and algorithms. Strong knowledge of back-end and front-end development technologies, as well as database technologies.</p>
                             </div>
-                            <div class="card-footer text-center">
+                            <!-- <div class="card-footer text-center">
                                 <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
                                 <i class="fab fa-twitter fa-2x" style="color: #55acee;"></i>
                                 <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
                                 <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -78,7 +80,7 @@
         <section id="previousWork" class="container py-5">
            <div><p class="sectionHeading">Previous Work</p></div> 
             <div class="row">
-                <div class="col-lg-6 col-md-6" id="pinkyPromiseCardModalToggle">
+                <div class="col-lg-6 col-md-6 cardClickOpenModal" id="pinkyPromiseCardModalToggle">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -97,11 +99,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6" id="asplCardModalToggle">
+                <div class="col-lg-6 col-md-6 cardClickOpenModal" id="asplCardModalToggle">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="../images/aspl.jpeg" height="200" width="200" class=" img-fluid rounded-start py-2 px-2"
+                                <img src="../images/aspl.jpeg" height="180" width="180" class=" img-fluid rounded-start py-2 px-2"
                                     alt="Portland State University">
                             </div>
                             <div class="col-md-8">
@@ -117,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6" id="kaldinCardModalToggle">
+                <div class="col-lg-6 col-md-6 cardClickOpenModal" id="kaldinCardModalToggle">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -156,7 +158,7 @@
                             <div class="row">
                                 <div class="col-lg-2 col-md-4 col-sm-6">
                                     <div class="text-center">
-                                        <img class="card-img-top pt-4" src="../images/clicksplit.webp"
+                                        <img class="card-img-top pt-4" height="200" width="200" src="../images/clicksplit.webp"
                                             alt="Picture of Pranav Dharamthok">
                                     </div>
                                 </div>
@@ -174,7 +176,7 @@
                                         the dropdown menu, users can check the checkboxes for their own items.
                                     </span>
                                     <br>
-                                    <a href="">Repository Link</a>
+                                    <a href="https://github.com/sarvesh2910/Click-n-Split">Repository Link</a>
                                 </div>
                             </div>
                         </div>
@@ -194,17 +196,17 @@
                             <div class="row">
                                 <div class="col-lg-2 col-md-4 col-sm-6">
                                     <div class="text-center">
-                                        <img class="card-img-top pt-4" src="../images/chatx.png"
-                                            alt="Picture of Pranav Dharamthok">
+                                        <img class="card-img-top pt-4" height="200" width="200" src="../images/chatx.png"
+                                            alt="Picture of Chatx project">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-5 col-sm-6">
                                     <strong>Technologies:</strong> Node.js, React.js <br><span>
                                         <strong>Description:</strong>
-                                        project desc 2
+                                        This is a chat application that allows you to communicate with people all over the world by sending and receiving real-time messages. This application was created with socket.io, React.js, and Node.js. This application includes features such as the ability to create a personal chatroom, invite others to the chatroom via email, view available chatrooms, and send a request to join a specific chatroom.
                                     </span>
                                     <br>
-                                    <a href="">Repository Link</a>
+                                    <a href="https://github.com/Pranav-PSU/ChatApplication">Repository Link</a>
                                 </div>
                             </div>
                         </div>
@@ -224,17 +226,16 @@
                             <div class="row">
                                 <div class="col-lg-2 col-md-4 col-sm-6">
                                     <div class="text-center">
-                                        <img class="card-img-top pt-4" src="../images/marketop.webp"
-                                            alt="Picture of Pranav Dharamthok">
+                                        <img class="card-img-top pt-4" height="200" width="200" src="../images/marketop.png"
+                                            alt="Picture of Marketop Project">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-5 col-sm-6">
                                     <strong>Technologies:</strong> Node.js, React.js <br><span>
                                         <strong>Description:</strong>
-                                         project desc 3
+                                        Marketop is a CRM application that allows you to manage all of your company's relationships and interactions with current and prospective customers. It has a complete detailed dashboard where the user can keep track of daily customer activities, SMS and Email and phone call functionality directly from the dashboard, an Excel sheet parser to fetch customer data and store it in a database, and scheduling and sequencing Emails and SMSs with specific date and time and predefined contents.
                                     </span>
                                     <br>
-                                    <a href="">Repository Link</a>
                                 </div>
                             </div>
                         </div>
@@ -292,40 +293,43 @@
         <section id="contact" class="container py-5 mb-5">
             
             <div><p class="sectionHeading">contact</p></div>
+            <form class="contactForm">
             <div class="row">
+               
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            >
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName"
+                            required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            >
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName"
+                            required>
                     </div>
                     <div class="mb-3">
-                        <label for="subject" class="form-label">Email address</label>
-                        <input type="text" class="form-control" id="subject">
+                        <label for="emaiAddress" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="emaiAddress" required>
                     </div>
                    
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" id="description" rows="8" required></textarea>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-3 col-sm-6 pe-0">
-                        <button class="btn btn-primary formButton">Button 1</button>
+                <div class="row mt-2">
+                    <div class="col-lg-6 col-md-6 col-sm-6 pe-0">
+                        <button type="submit" id="formButtonSubmit" class="btn formButton">Submit</button>
                 </div>
-                    <div class="col-lg-6 col-md-3 col-sm-6 pe-0">
-                        <button class="btn btn-secondary formButton">Button 2</button>
+                    <div class="col-lg-6 col-md-6 col-sm-6 pe-0">
+                        <button type="reset" class="btn btn-secondary formButton">Reset</button>
                 </div>
 
                 </div>
             </div>
+        </form>
         </section>
 
     </main>
