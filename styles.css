@@ -1,10 +1,9 @@
- 
- * {
-    box-sizing: border-box;
-  }
-  
-  :root {
-    --GreenTheme: #018a7b;
-    --GreenThemeText: #00554c;;
-  }
-    
+:root {
+  --WhiteColor: rgb(255, 255, 255);
+  --GreenTheme: #018a7b;
+  --GreenThemeDark: #01423b;
+  --GreenThemeLight: #b8ede8;
+  --GreenThemeText: #00554c;
+  --GrayTransperent: #ffffffcc;
+  --BlackColor: black;
+}
