@@ -27,7 +27,7 @@
   padding: 1vh;
 }
 .bgimg {
-  background-image: url("/images/back.jpeg");
+  background-image: url("images/back.jpeg");
   background-size: cover;
   position: relative;
   height: 115vh;
