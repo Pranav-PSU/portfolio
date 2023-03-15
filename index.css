@@ -17,7 +17,7 @@
   margin-bottom: 0;
 }
 
-.card:hover {
+.cardClickOpenModal:hover {
   cursor: pointer;
 }
 
@@ -30,7 +30,7 @@
   background-image: url("images/back.jpeg");
   background-size: cover;
   position: relative;
-  height: 115vh;
+  height: 125vh;
 }
 
 .bgimg:before {
@@ -92,7 +92,10 @@ label {
   color: var(--WhiteColor);
 }
 
-.cardClickOpenModal:hover {
+.cardClickOpenModal:hover,
+.fabIcon:hover,
+.downloadIcon:hover,
+.downloadText:hover .downloadIcon {
   animation: shake 0.4s;
   animation-iteration-count: 1;
 }
@@ -134,4 +137,16 @@ label {
 
 .card-title {
   color: var(--GreenThemeText);
+}
+
+.downloadIcon {
+  color: var(--GreenThemeText);
+  padding-right: 2%;
+  cursor: pointer;
+}
+
+.downloadText {
+  color: var(--GreenThemeText);
+  cursor: pointer;
+  font-size: 18px;
 }
