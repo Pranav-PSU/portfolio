@@ -15,5 +15,6 @@ https://pranav-psu.github.io/portfolio/
 
 1. https://getbootstrap.com/docs/5.3/getting-started/introduction/
 2. https://fontawesome.com/v5/search
-3. https://css-tricks.com/snippets/css/shake-css-keyframe-animation/
-4. https://formspree.io/
+3. https://www.w3schools.com/
+4. https://css-tricks.com/snippets/css/shake-css-keyframe-animation/
+5. https://formspree.io/
